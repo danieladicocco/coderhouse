@@ -1,0 +1,93 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Estilo Desktop*/
+@media (min-width: 992px){
+    nav{
+        background-color: rgb(207, 207, 207);
+    }   
+        
+
+    .navbar-nav{
+        margin-left: auto; 
+    }
+
+    .navbar-nav .nav-link{
+        color: black;
+    }
+    
+    .main{
+        background-image: url(https://images.unsplash.com/photo-1554136545-2f288e8cf4bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 250px;
+        height: 2em;
+        color: white;
+        font-size: 2em;
+    }
+    
+    .ev{
+        background-color: rgb(207, 207, 207);
+        height: 500px;
+        justify-content: center;
+    }
+    
+    .ev p{
+        background-color: rgb(209, 193, 173);
+        padding: 10px;
+    }
+    .eventos{
+        margin-top: 10px;
+        display: inline-block;
+    }
+    
+    .et{
+        display: inline;
+        text-align: center;
+    }
+    
+    
+    .eventos img{
+        border: 3px solid #6b7aad;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        width:250px; 
+        height:250px;
+    }
+    
+    .call2{
+        color: rgb(185, 185, 185);
+        font-weight: bold;
+        height: 500px;
+        background-image: url(https://images.unsplash.com/photo-1558185348-c1e6420f12d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        background-position: center;
+        background-size: cover;
+        padding: 150px;
+    }
+    
+    .jumbotron .container{
+        text-align: center;
+    }
+    
+    footer{
+        width: 100%;
+        display: flex;
+        background-color: rgb(163, 161, 161);
+        color: white;
+    }
+    
+    
+    footer .footer-text{
+        padding: 25px;
+    }
+
+    
+}
+
