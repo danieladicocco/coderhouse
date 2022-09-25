@@ -11,7 +11,6 @@ nav{
 footer{
     background-color: rgb(207, 207, 207);
     color: black;
-    
 }
 
 .call2{
@@ -25,12 +24,18 @@ footer{
     padding-bottom: 5%;
 }
 
+.faq h1{
+    padding: 25px;
+}
+
 /*Estilo Mobile*/
 @media (max-width: 992px){
 
+    /*INDEX*/
     .main{
         background-image: url(https://images.unsplash.com/photo-1554136545-2f288e8cf4bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
         color: white;
+        background-size: cover;
     }
     .main h2{
         padding-top: 25px;
@@ -54,11 +59,25 @@ footer{
         text-align: justify;
         padding: 10px;
     }
+
+    /*FAQ*/
+    .faq h1{
+        text-align: center;
+    }
+
+    .faq img{
+        display: none;
+    }
+
 }
 
 
 /*Estilo Desktop*/
 @media (min-width: 992px){
+    body{
+        padding-bottom: 97px;
+    }
+    
     /*NAV*/
     .navbar-nav{
         margin-left: auto; 
@@ -76,6 +95,7 @@ footer{
         bottom: 0;
         width: 100%;
     }
+
     footer .social{
         padding-left: 350px;
         padding-top: 50px;
