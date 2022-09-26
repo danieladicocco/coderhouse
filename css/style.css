@@ -127,6 +127,10 @@ footer{
         justify-content: center;
     }
     
+    .ev h1{
+        padding: 25px;
+    }    
+
     .ev p{
         background-color: rgb(209, 193, 173);
         padding: 10px;
